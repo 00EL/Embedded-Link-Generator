@@ -46,4 +46,4 @@ This project is open-source and free to use.
 
 ## **📜 Notes**
 This might only work for your own [App Script](https://script.google.com/) read [Documentations](https://developers.google.com/apps-script/)
-copy App Script Code to your Wep App and use Deployment ID (macro) for inject.js on line 91
+copy App Script Code to your Wep App and use Deployment ID (macro) insert it to inject.js on line 91
