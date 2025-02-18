@@ -1,6 +1,6 @@
 # **🔗 Embedded Link Generator**  
 
-A simple Chrome extension that converts Google Drive links into direct embedded links, making file sharing easier.  
+A simple Chrome extension that converts Google Drive links into direct embedded links. 
 
 ## **📌 Features**  
 ✅ Convert Google Drive links into direct embed links.  
