@@ -43,3 +43,6 @@ This project was developed as part of our **OJT (On-the-Job Training)** at **[ST
 
 ## **📜 License**  
 This project is open-source and free to use.  
+
+## **📜 Notes**
+This might only work for your own [App Script](https://script.google.com/) read [Documentations](https://developers.google.com/apps-script/)
