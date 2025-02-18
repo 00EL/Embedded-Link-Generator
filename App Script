@@ -1,0 +1,16 @@
+function doGet(e) {
+  if (!e.parameter.id) {
+    return ContentService.createTextOutput("Error: No ID provided.");
+  }
+
+  var fileId = e.parameter.id;
+  
+  // Hash the ID (SHA-256)
+  var hash = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, fileId);
+  var hashString = hash.map(byte => ('0' + (byte & 0xFF).toString(16)).slice(-2)).join('');
+
+  // Construct the new URL with the hashed ID
+  var imageUrl = "https://lh3.googleusercontent.com/d/" + hashString + "=s1600-rw-v1?source=screenshot.guru";
+
+  return ContentService.createTextOutput(imageUrl);
+}
