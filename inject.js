@@ -88,7 +88,7 @@ document.getElementById("generate").addEventListener("click", async function () 
     }
 
     let fileId = fileIdMatch[0];
-    let scriptUrl = `https://script.google.com/macros/s/AKfycbzDe0PS4-OYKucmfkrKzAIyPdB98uFkh8oU3MAXrmbTV-TChdkeoQ6hC4GMtXLz-fKd/exec?id=${fileId}`;
+    let scriptUrl = `https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec?id=${fileId}`;
 
     let resultBox = document.getElementById("result");
     let resultContainer = document.getElementById("resultContainer");
